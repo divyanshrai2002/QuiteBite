@@ -17,7 +17,7 @@ console.log("Environment Variables:", process.env);
 // Set up CORS
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: [https://quitebite-frontend.onrender.com/],
     methods: ["POST"],
     credentials: true,
   })
